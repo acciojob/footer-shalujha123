@@ -1,4 +1,4 @@
-/* your code here */
+/* /* your code here */
 *{
 	margin: 0;
 	padding: 0;
@@ -12,7 +12,7 @@ footer{
 li{
 	list-style-type: none;
 }
-a{
+.links li a{
 	text-decoration: none;
 	color: white
 }
@@ -25,6 +25,10 @@ a{
 	padding: 20px;
 	font-size: 20px;
 }
+.link-boxes{
+	display: flex;
+	flex-direction: column;
+}
 .links{
 	display: flex;
 	align-items: center;
@@ -32,9 +36,13 @@ a{
 	margin-bottom: 50px;
 	padding: 15px;
 }
-.media-icons{
+.media-icons {
 	display: flex;
 	gap: 5px;
+}
+.media-icons a{
+	text-decoration: none;
+	color: white;
 }
 .a1{
 	border-radius: 50%;
@@ -85,3 +93,4 @@ h4{
 
 
 
+ 
